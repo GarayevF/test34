@@ -1,0 +1,12 @@
+.container {
+  display: inline-grid;
+  grid-template-columns: auto;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+}
+
+.column {
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+}
